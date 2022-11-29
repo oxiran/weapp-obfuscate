@@ -7,7 +7,7 @@ const argv = require('minimist')(process.argv.slice(2));
 
 let defaultConfig = {
   entry: './',
-  excludes: ['node_modules', 'miniprogram_npm'],
+  excludes: ['node_modules'],
   desc: '关于本文件的更多信息，请参考文档 代码加固开发者文档',
   switch: true,
 };
