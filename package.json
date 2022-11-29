@@ -17,14 +17,19 @@
   "bin": {
     "weapp-obfuscate": "./index.js"
   },
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
   "dependencies": {
     "chalk": "^4.1.2",
     "minimist": "^1.2.7"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@oxiran/commitlint-config": "^1.0.0",
     "@oxiran/eslint-config": "^1.1.0",
-    "eslint": "^8.28.0"
+    "eslint": "^8.28.0",
+    "husky": "^8.0.2"
   },
   "author": {
     "name": "oxiran",
