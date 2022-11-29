@@ -28,8 +28,10 @@
     "@commitlint/cli": "^17.3.0",
     "@oxiran/commitlint-config": "^1.0.0",
     "@oxiran/eslint-config": "^1.1.0",
+    "@oxiran/semantic-release-config": "^1.0.0",
     "eslint": "^8.28.0",
-    "husky": "^8.0.2"
+    "husky": "^8.0.2",
+    "semantic-release": "^19.0.5"
   },
   "author": {
     "name": "oxiran",
