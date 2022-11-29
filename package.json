@@ -1,0 +1,46 @@
+{
+  "name": "weapp-obfuscate",
+  "version": "1.0.0",
+  "description": "A tool to generate code_obfuscation_config.json of weixin miniprogram.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "weixin",
+    "weapp",
+    "miniprogram",
+    "obfuscate",
+    "obfuscation",
+    "config"
+  ],
+  "bin": {
+    "weapp-obfuscate": "./index.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "minimist": "^1.2.7"
+  },
+  "devDependencies": {
+    "@oxiran/eslint-config": "^1.1.0",
+    "eslint": "^8.28.0"
+  },
+  "author": {
+    "name": "oxiran",
+    "email": "oxiran.liao@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oxiran/weapp-obfuscate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oxiran/weapp-obfuscate/issues"
+  },
+  "homepage": "https://github.com/oxiran/weapp-obfuscate",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
